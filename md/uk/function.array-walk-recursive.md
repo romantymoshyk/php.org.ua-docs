@@ -1,10 +1,10 @@
 ---
 navigation:
-  - function.array-values.md: « array\_values
-  - function.array-walk.md: array\_walk »
+  - function.array-values.md: « array_values
+  - function.array-walk.md: array_walk »
   - index.md: PHP Manual
   - ref.array.md: Функції для роботи з масивами
-title: array\_walk\_recursive
+title: array_walk_recursive
 origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
 # array_walk_recursive
@@ -45,7 +45,7 @@ array_walk_recursive(array|object &$array, callable $callback, mixed $arg = null
 
 ### Приклади
 
-**Приклад #1 Приклад використання** array\_walk\_recursive()\*\*\*\*
+**Приклад #1 Приклад використання** array_walk_recursive()\*\*\*\*
 
 ```php
 <?php
@@ -54,7 +54,7 @@ $fruits = array('sweet' => $sweet, 'sour' => 'lemon');
 
 function test_print($item, $key)
 {
-    echo "$key содержит $item\n";
+    echo "$key містить $item\n";
 }
 
 array_walk_recursive($fruits, 'test_print');
@@ -64,9 +64,9 @@ array_walk_recursive($fruits, 'test_print');
 Результат виконання наведеного прикладу:
 
 ```
-a содержит apple
-b содержит banana
-sour содержит lemon
+a містить apple
+b містить banana
+sour містить lemon
 ```
 
 Зверніть увагу, що ключ '`sweet`' ніколи не відображається. Будь-який ключ, що містить значення типу array, не передаватиметься у функцію.

@@ -7,11 +7,11 @@ navigation:
 title: array\_walk\_recursive
 origin_hash: ddf652f5224dc9f1fa9671347921941ca401ea50
 ---
-# array\_walk\_recursive
+# array_walk_recursive
 
 (PHP 5, PHP 7, PHP 8)
 
-array\_walk\_recursive — Рекурсивно застосовує функцію користувача до кожного елементу масиву
+array_walk_recursive — Рекурсивно застосовує функцію користувача до кожного елементу масиву
 
 ### Опис
 
@@ -41,7 +41,7 @@ array_walk_recursive(array|object &$array, callable $callback, mixed $arg = null
 
 ### Значення, що повертаються
 
-Повертає **`true`** у разі успішного виконання або \*\*`false`\*\*в случае возникновения ошибки.
+Повертає **`true`** у разі успішного виконання або \*\*`false`\*\* у випадку виникнення помилки.
 
 ### Приклади
 
@@ -73,4 +73,4 @@ sour содержит lemon
 
 ### Дивіться також
 
--   [array\_walk()](function.array-walk.md) \- Застосовує задану користувачем функцію кожного елемента масиву
+-   [array_walk()](function.array-walk.md) - Застосовує задану користувачем функцію кожного елемента масиву
